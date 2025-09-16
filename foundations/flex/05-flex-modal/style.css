@@ -40,13 +40,10 @@ body {
 
 
 .header {
-  font-weight: bold;
-  font-size: 20px;
-}
-
-.top {
   display: flex;
   justify-content: space-between;
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .header-container {
