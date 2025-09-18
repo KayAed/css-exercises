@@ -19,22 +19,19 @@ body {
 }
 
 ul {
-  list-style: none;
-  color: white;
+  list-style-type: none;
   font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
   text-decoration: none;
-}
-
-.footer {
-  height: 72px;
-  background: #eee;
-  color: darkmagenta;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  color: white;
 }
 
 .sidebar-and-cards {
@@ -46,6 +43,7 @@ a {
   background: rgb(253, 73, 253);
   box-sizing: border-box;
   flex-shrink: 0;
+  padding: 16px;
 }
 
 .card-section {
@@ -63,4 +61,13 @@ a {
   width: 225px;
   height: 205px;
   padding: 16px;
+}
+
+.footer {
+  height: 72px;
+  background: #eee;
+  color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
